@@ -30,7 +30,7 @@ function loadEnv() {
   return env;
 }
 
-const env = loadEnv();
+const env = { ...loadEnv(), ...process.env };
 const resultsPath = (env.RESULTS_PATH || '/Rezultate-tabel-invitatie').replace(/\/$/, '') || '/';
 const appKey = env.APP_KEY || 'change-this-key-before-deploying';
 const resultsPassword = env.RESULTS_PASSWORD || '';
