@@ -1,0 +1,11 @@
+{
+  "name": "invitatie-rebeca-maria",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}

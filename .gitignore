@@ -1,0 +1,16 @@
+.env
+storage/*.sqlite
+storage/*.sqlite-*
+storage/*.db
+storage/*.db-*
+*.log
+
+# În deployment sunt necesare doar fotografiile folosite în invitație.
+files/*
+!files/
+!files/Rebeca Maria - newborn_18.jpg
+!files/Rebeca Maria - newborn_33.jpg
+!files/Rebeca Maria - newborn_44.jpg
+!files/Rebeca Maria - newborn_46.jpg
+!files/Rebeca Maria - newborn_60.jpg
+!files/Rebeca Maria - newborn_76.jpg
